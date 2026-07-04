@@ -1,0 +1,16 @@
+name: deck_playful
+engine: pptx
+description: "Coral/gold energetic look for less formal presentations."
+
+# No layout_sequence here -> layout picked automatically per item.
+# Individual ContentItem.layout can still override on a case-by-case basis.
+
+theme:
+  primary_color: "2F3C7E"
+  secondary_color: "F9E795"
+  background: "FFFFFF"
+  text_color: "2F2F2F"
+  muted_color: "8A8A8A"
+  on_primary: "FFFFFF"
+  font_header: "Bookman Old Style"
+  font_body: "Arial"
