@@ -1,3 +1,7 @@
+# This is AI Blockchain Contract project
+
+This project is part of AI Blockchain Contract seties of Ranchi. A blockchain contract is a governance structure on the blockchain which enables human led supervision over blockchain projects, as opposed to Corporate incorporation in traditional businesses and purely automated Smartcontracts in DAOs (Distributed Autonomous Organisation). Funding for Blockchain Contract comes directly on blockchain.
+
 # Deck Creator
 
 Generate templated PowerPoint decks or PDF reports from a local Chroma DB
