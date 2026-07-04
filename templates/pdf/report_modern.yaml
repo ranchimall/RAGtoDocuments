@@ -1,0 +1,23 @@
+name: report_modern
+engine: pdf
+description: "Navy corporate report, matches deck_corporate pptx palette."
+page_size: LETTER
+margin_inches: 0.75
+
+# Layout is chosen automatically per item based on content signals (see
+# engine/layout_selector.py). Uncomment to force a fixed rotation instead:
+# layout_sequence:
+#   - two_column_image
+#   - stat_callout
+#   - text_block
+#   - quote
+
+theme:
+  primary_color: "1E2761"
+  secondary_color: "CADCFC"
+  background: "FFFFFF"
+  text_color: "212121"
+  muted_color: "6E6E6E"
+  on_primary: "FFFFFF"
+  font_header: "Helvetica-Bold"
+  font_body: "Helvetica"
