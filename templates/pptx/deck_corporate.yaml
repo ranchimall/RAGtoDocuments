@@ -1,0 +1,24 @@
+name: deck_corporate
+engine: pptx
+description: "Navy/ice-blue corporate look, two-column content slides with images."
+
+# Layout is chosen automatically per slide based on content signals:
+#   2+ images -> image_grid | quoted text -> quote | short+numeric -> stat_callout
+#   multi-line/semicolon text -> bulleted_list | 1 image -> full_bleed_image or two_column_image
+#   otherwise -> text_block
+# Uncomment to force a fixed rotation instead of content-based selection:
+# layout_sequence:
+#   - two_column_image
+#   - stat_callout
+#   - text_block
+#   - quote
+
+theme:
+  primary_color: "1E2761"
+  secondary_color: "CADCFC"
+  background: "FFFFFF"
+  text_color: "212121"
+  muted_color: "6E6E6E"
+  on_primary: "FFFFFF"
+  font_header: "Cambria"
+  font_body: "Calibri"
